@@ -101,7 +101,7 @@ function sortProperties(obj) {
 
 }
 
-//filter out stop words 
+//filter out stop words
 function filterStopWords(wordArray) {
     var commonWords = getStopWords();
     var commonObj = {};
@@ -135,14 +135,15 @@ function performMark() {
     var newContent = "";
 
     //find all the currently marked items
-    let spans = docuemnt.querySelectorAll('mark');
+    let spans = document.querySelectorAll('mark');
 
     //<mark>Harry</mark>
     //Harry
 
-    for(var i = 0; i < spans.length; i++) {
+    for (var i = 0; i < spans.length; i++) {
         spans[i].outerHTML = spans[i].innerHTML;
     }
+
     var re = new RegExp(keyword, "gi");
     var replaceText = "<mark id='markme'>$&</mark>";
     var bookContent = display.innerHTML;
