@@ -1,0 +1,19 @@
+{
+  "name": "notary-javascript-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SearchString.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmeegan2/Notary-JavaScript-project.git"
+  },
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmeegan2/Notary-JavaScript-project/issues"
+  },
+  "homepage": "https://github.com/jmeegan2/Notary-JavaScript-project#readme"
+}
